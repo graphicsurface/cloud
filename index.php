@@ -1,6 +1,6 @@
 <?php
 
-$directory = 'End_of_Course_Geometry';
+$directory = 'Chemistry';
 
 $files = scandir($directory);
 $files = array_diff($files, array('.', '..', '.DS_Store'));
